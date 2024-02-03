@@ -14,7 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="ru">
       <body className={`${inter.className} w-screen overflow-x-hidden bg-[#F4F1EE] text-[#404040]`} >
         <Header />
-        {children}
+          <mai>
+           {children}
+          </mai>
         </body>
     </html>
   );
